@@ -44,3 +44,7 @@ wget -O /tmp/luci-theme-alpha.ipk https://raw.githubusercontent.com/BootLoopLove
 ```
 /etc/init.d/uhttpd restart
 ```
+# Remove Ipk Dalam folder tmp
+```
+rm /tmp/*.ipk
+```
