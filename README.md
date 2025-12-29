@@ -44,6 +44,10 @@ wget -O /tmp/luci-theme-alpha.ipk https://raw.githubusercontent.com/BootLoopLove
 ```
 /etc/init.d/uhttpd restart
 ```
+# Signalmanager
+```
+wget -O /tmp/luci-app-signalmanager.ipk https://raw.githubusercontent.com/BootLoopLover/ipk/refs/heads/main/luci-app-signalmanager.ipk && opkg install /tmp/luci-app-signalmanager.ipk
+```
 # Remove Ipk Dalam folder tmp
 ```
 rm /tmp/*.ipk
