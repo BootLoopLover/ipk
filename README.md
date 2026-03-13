@@ -1,6 +1,11 @@
+
 # ipk
 
-# Passwall
+# Passwall 26.3.6
+```
+wget -O /tmp/luci-app-passwall_26.3.6.ipk https://raw.githubusercontent.com/BootLoopLover/ipk/refs/heads/main/luci-app-passwall_26.3.6.ipk && opkg install /tmp/luci-app-passwall_26.3.6.ipk
+```
+# Passwall 
 ```
 wget -O /tmp/luci-app-passwall.ipk https://raw.githubusercontent.com/BootLoopLover/ipk/refs/heads/main/luci-app-passwall.ipk && opkg install /tmp/luci-app-passwall.ipk
 ```
