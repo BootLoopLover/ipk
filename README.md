@@ -61,6 +61,10 @@ wget -O /tmp/luci-app-signalmanager.ipk https://raw.githubusercontent.com/BootLo
 ```
 wget -O /tmp/modemmanager.ipk https://raw.githubusercontent.com/BootLoopLover/ipk/refs/heads/main/modemmanager.ipk && opkg install /tmp/modemmanager.ipk
 ```
+# Passwall 26.4.2
+```
+wget -O /tmp/luci-app-passwall_26.4.2-r1_all.ipk https://raw.githubusercontent.com/BootLoopLover/ipk/refs/heads/main/luci-app-passwall_26.4.2-r1_all.ipk && opkg install /tmp/luci-app-passwall_26.4.2-r1_all.ipk
+```
 # Remove Ipk Dalam folder tmp
 ```
 rm /tmp/*.ipk
